@@ -40,10 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+     'galeria.apps.GaleriaConfig',
 ]
 
-MIDDLEWARE = [    'galeria.apps.GaleriaConfig',
-
+MIDDLEWARE = [   
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
